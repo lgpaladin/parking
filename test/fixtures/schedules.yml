@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  park: one
+  park_space: one
+  start: 2021-04-02 19:18:03
+  end: 2021-04-02 19:18:03
+
+two:
+  park: two
+  park_space: two
+  start: 2021-04-02 19:18:03
+  end: 2021-04-02 19:18:03

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  address: MyString
+  coordinates: MyString
+  place_count: 1
+  free_place_count: 1
+  car_type: 1
+  building_type: 1
+
+two:
+  title: MyString
+  address: MyString
+  coordinates: MyString
+  place_count: 1
+  free_place_count: 1
+  car_type: 1
+  building_type: 1

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Parks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Address</th>
+      <th>Coordinates</th>
+      <th>Place count</th>
+      <th>Free place count</th>
+      <th>Car type</th>
+      <th>Building type</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @parks.each do |park| %>
+      <tr>
+        <td><%= park.title %></td>
+        <td><%= park.address %></td>
+        <td><%= park.coordinates %></td>
+        <td><%= park.place_count %></td>
+        <td><%= park.free_place_count %></td>
+        <td><%= park.car_type %></td>
+        <td><%= park.building_type %></td>
+        <td><%= link_to 'Show', park %></td>
+        <td><%= link_to 'Edit', edit_park_path(park) %></td>
+        <td><%= link_to 'Destroy', park, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Park', new_park_path %>

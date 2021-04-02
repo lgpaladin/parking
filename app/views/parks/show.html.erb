@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @park.title %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @park.address %>
+</p>
+
+<p>
+  <strong>Coordinates:</strong>
+  <%= @park.coordinates %>
+</p>
+
+<p>
+  <strong>Place count:</strong>
+  <%= @park.place_count %>
+</p>
+
+<p>
+  <strong>Free place count:</strong>
+  <%= @park.free_place_count %>
+</p>
+
+<p>
+  <strong>Car type:</strong>
+  <%= @park.car_type %>
+</p>
+
+<p>
+  <strong>Building type:</strong>
+  <%= @park.building_type %>
+</p>
+
+<%= link_to 'Edit', edit_park_path(@park) %> |
+<%= link_to 'Back', parks_path %>
