@@ -23,7 +23,13 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 
+gem 'activeadmin'
+
+# Plus integrations with:
 gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
 
 
 # Use Active Storage variant
