@@ -1,19 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  price_for_night: 1.5
-  price_for_day: 1.5
-  price_for_morning: 1.5
-  price_for_evening: 1.5
-  price_for_track: 1.5
-  price_for_big_track: 1.5
+  night: 1.5
+  day: 1.5
+  morning: 1.5
+  evening: 1.5
+  track: 1.5
+  big_track: 1.5
   park: one
 
 two:
-  price_for_night: 1.5
-  price_for_day: 1.5
-  price_for_morning: 1.5
-  price_for_evening: 1.5
-  price_for_track: 1.5
-  price_for_big_track: 1.5
+  night: 1.5
+  day: 1.5
+  morning: 1.5
+  evening: 1.5
+  track: 1.5
+  big_track: 1.5
   park: two

@@ -2,12 +2,12 @@
 
 one:
   park: one
-  park_space: one
+  parking_space: one
   start: 2021-04-02 19:18:03
   end: 2021-04-02 19:18:03
 
 two:
   park: two
-  park_space: two
+  parking_space: two
   start: 2021-04-02 19:18:03
   end: 2021-04-02 19:18:03
